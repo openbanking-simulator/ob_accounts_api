@@ -1,4 +1,4 @@
-package com.openbanking.simulator.obapiaccounts;
+package com.openbanking.simulator.api.accounts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
