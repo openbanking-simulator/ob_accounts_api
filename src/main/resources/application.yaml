@@ -1,0 +1,22 @@
+#spring:
+#  application:
+#    name: ob-api-accounts
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/db
+
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ob_accounts

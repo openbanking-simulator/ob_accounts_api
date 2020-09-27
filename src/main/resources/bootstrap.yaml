@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ob-api-accounts
+  config:
+    use-legacy-processing: true
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+      config:
+        name: ob-api-accounts
+        namespace: default
+        sources:
+          - name: ${spring.application.name}
